@@ -1,15 +1,27 @@
 # Interpreting Time-Series Forecasts with LIME & SHAP
 *Case Study: AirPassengers Dataset*
 
-## Overview
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)  
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)  
+[![scikit-learn](https://img.shields.io/badge/ML-ScikitLearn-green.svg)](https://scikit-learn.org/stable/)  
+[![statsmodels](https://img.shields.io/badge/Stats-Statsmodels-blue.svg)](https://www.statsmodels.org/)  
+[![xgboost](https://img.shields.io/badge/Boosting-XGBoost-red.svg)](https://xgboost.readthedocs.io/)  
+[![SHAP](https://img.shields.io/badge/Explainability-SHAP-brightgreen.svg)](https://shap.readthedocs.io/)  
+[![LIME](https://img.shields.io/badge/Explainability-LIME-yellow.svg)](https://github.com/marcotcr/lime)  
+
+---
+
+## 📌 Overview
 - This project reproduces the experiments and figures from the accompanying paper on **interpretable time-series forecasting**.  
 - We use the **AirPassengers dataset (1949–1960)** and compare **ARIMA** with a **feature-based machine learning model** (XGBoost or RandomForest).  
 - Interpretability is added through **LIME** and **SHAP**, with plots and tables numbered exactly as in the paper.
 
-## Repository Structure
+---
+
+## 📂 Repository Structure
 ```
 .
-├── airpassengers_lime_shap_paper_style_v2_annotated.ipynb   # Main annotated notebook
+├── timeseries_interpretation_lime_shap.ipynb   # Main annotated notebook
 ├── Data/
 │   └── AirPassengers.csv                                    # Source dataset
 ├── Figures/
@@ -18,10 +30,13 @@
 │   ├── Figure_3.png                                         # SHAP dependence
 │   ├── Figure_4.png                                         # LIME local explanation
 │   └── Figure_5.png                                         # Permutation importance
+├── requirements.txt                                         # Dependencies
 └── README.md                                                # Project documentation
 ```
 
-## Setup & Installation
+---
+
+## ⚙️ Setup & Installation
 Clone the repository and install dependencies:
 
 ```bash
@@ -31,23 +46,29 @@ cd <repo-name>
 # Create a virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
-venv\Scripts\activate    # (Windows)
+venv\Scripts\activate      # (Windows)
 
 # Install requirements
 pip install -r requirements.txt
 ```
 
-**Dependencies:**
-- pandas, numpy, matplotlib  
-- scikit-learn, statsmodels  
-- xgboost (or fallback: RandomForestRegressor)  
-- shap, lime  
+**Dependencies (requirements.txt):**
+- pandas  
+- numpy  
+- matplotlib  
+- scikit-learn  
+- statsmodels  
+- xgboost  
+- shap  
+- lime  
 
-## Usage
+---
+
+## 🚀 Usage
 Open the notebook:
 
 ```bash
-jupyter notebook airpassengers_lime_shap_paper_style_v2_annotated.ipynb
+jupyter notebook timeseries_interpretation_lime_shap.ipynb
 ```
 
 Run all cells to:
@@ -62,16 +83,20 @@ Run all cells to:
 
 All plots are automatically saved as `.png` files in the working directory.
 
-## Results (from Paper)
-- ARIMA provides a strong seasonal baseline.  
-- XGBoost/RandomForest with lagged features and seasonality encodings achieves lower RMSE and MAPE.  
+---
+
+## 📊 Results (from Paper)
+- **ARIMA** provides a strong seasonal baseline.  
+- **XGBoost/RandomForest** with lagged features and seasonality encodings achieves lower RMSE and MAPE.  
 
 **Interpretability Highlights:**
 - `Lag_12` dominates due to yearly seasonality.  
-- LIME shows local feature influence for specific months.  
-- SHAP explains both global and local contributions, complementing LIME.  
+- **LIME** shows local feature influence for specific months.  
+- **SHAP** explains both global and local contributions, complementing LIME.  
 
-## Citation
+---
+
+## 📝 Citation
 If you use this notebook in your research or teaching, please cite:
 
 ```
@@ -83,10 +108,14 @@ If you use this notebook in your research or teaching, please cite:
 }
 ```
 
-## Contributing
+---
+
+## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to add.
 
-## Contact
+---
+
+## 📧 Contact
 - **Author**: Manish A. Shukla  
 - **Email**: manishshukla.ms18@gmail.com  
 - **LinkedIn**: [linkedin.com/in/manishshukla-ms](https://www.linkedin.com/in/manishshukla-ms)  
