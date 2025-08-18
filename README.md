@@ -106,6 +106,14 @@ If you use this notebook in your research or teaching, please cite:
   year={2025},
   howpublished={GitHub Repository}
 }
+
+@article{shukla2025preprint,
+  title={Interpreting Time-Series Forecasts with LIME and SHAP},
+  author={Manish A. Shukla},
+  journal={Research Square},
+  year={2025},
+  note={Preprint}
+}
 ```
 
 ---
