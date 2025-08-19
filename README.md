@@ -96,10 +96,29 @@ All plots are automatically saved as `.png` files in the working directory.
 
 ---
 
+## 📖 Paper
+
+This repository accompanies the following preprints:
+
+- [📰 arXiv:2508.12253 – Interpreting Time-Series Forecasts with LIME and SHAP: AirPassengers Case Study](https://arxiv.org/abs/2508.12253)  
+- [📑 Research Square – Interpreting Time-Series Forecasts with LIME and SHAP](https://www.researchsquare.com/article/rs-7358158/v1)  
+
+
+---
+
 ## 📝 Citation
 If you use this notebook in your research or teaching, please cite:
 
 ```
+@article{shukla2025airlime,
+  title={Interpreting Time-Series Forecasts with LIME and SHAP: AirPassengers Case Study},
+  author={Manish A. Shukla},
+  year={2025},
+  eprint={2508.12253},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG}
+}
+
 @misc{shukla2025airlime,
   title={Interpreting Time-Series Forecasts with LIME and SHAP: AirPassengers Case Study},
   author={Manish A. Shukla},
