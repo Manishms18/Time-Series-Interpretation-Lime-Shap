@@ -1,0 +1,13 @@
+# At top of CITATION.cff
+cff-version: 1.2.0
+...
+
+authors:
+  - family-names: Shukla
+    given-names: Manish
+    orcid: "https://orcid.org/0009-0005-1093-5816"
+
+repository-code: "https://github.com/Manishms18/Time-Series-Interpretation-Lime-Shap"
+version: "v1.0.1"
+doi: 10.5281/zenodo.16906228
+date-released: 2025-08-19
