@@ -110,6 +110,15 @@ This repository accompanies the following preprints:
 If you use this notebook in your research or teaching, please cite:
 
 ```
+@software{shukla2025timeserieslimeShap,
+  author       = {Shukla, Manish A.},
+  title        = {Time-Series-Interpretation-Lime-Shap},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.16906228},
+  url          = {https://doi.org/10.5281/zenodo.16906228}
+}
+
 @article{shukla2025airlime,
   title={Interpreting Time-Series Forecasts with LIME and SHAP: AirPassengers Case Study},
   author={Manish A. Shukla},
@@ -119,13 +128,6 @@ If you use this notebook in your research or teaching, please cite:
   primaryClass={cs.LG}
 }
 
-@misc{shukla2025airlime,
-  title={Interpreting Time-Series Forecasts with LIME and SHAP: AirPassengers Case Study},
-  author={Manish A. Shukla},
-  year={2025},
-  howpublished={GitHub Repository}
-}
-
 @article{shukla2025preprint,
   title={Interpreting Time-Series Forecasts with LIME and SHAP},
   author={Manish A. Shukla},
@@ -133,6 +135,8 @@ If you use this notebook in your research or teaching, please cite:
   year={2025},
   note={Preprint}
 }
+
+
 ```
 
 ---
