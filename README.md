@@ -110,13 +110,14 @@ This repository accompanies the following preprints:
 If you use this notebook in your research or teaching, please cite:
 
 ```
-@software{shukla2025timeserieslimeShap,
-  author       = {Shukla, Manish A.},
-  title        = {Time-Series-Interpretation-Lime-Shap},
-  year         = {2025},
-  publisher    = {Zenodo},
+@software{shukla2025_interpreting,
+  author       = {Shukla, Manish},
+  title        = {Interpreting Time-Series Forecasts with LIME \& SHAP},
+  version      = {v1.0.1},
+  date         = {2025-08-19},
   doi          = {10.5281/zenodo.16906228},
-  url          = {https://doi.org/10.5281/zenodo.16906228}
+  url          = {https://doi.org/10.5281/zenodo.16906228},
+  note         = {ORCID: 0009-0005-1093-5816}
 }
 
 @article{shukla2025airlime,
