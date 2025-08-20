@@ -1,6 +1,7 @@
-# At top of CITATION.cff
 cff-version: 1.2.0
-...
+title: "Interpreting Time-Series Forecasts with LIME & SHAP"
+message: "If you use this software, please cite it as below."
+type: software
 
 authors:
   - family-names: Shukla
